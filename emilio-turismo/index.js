@@ -21,7 +21,7 @@ app.post('/api/form', (req, res) => {
                         "</li><li>Número de pessoas: " + 
                         req.body.numberOfPeople +
                         "</li></ul><h3>Mensagem</h3><p>" +
-                        req.body.a + 
+                        req.body.message + 
                         "</p>"
 
         let transporter = nodemailer.createTransport({
