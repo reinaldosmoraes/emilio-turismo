@@ -1,0 +1,6 @@
+npm run server na pasta raiz para start do servidor
+
+----------------
+
+cd emilio-viagens-form
+npm start  

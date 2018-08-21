@@ -14,8 +14,14 @@ app.post('/api/form', (req, res) => {
                         req.body.email + 
                         "</li><li>Data de partida: " + 
                         req.body.departureDate +
+                        "</li><li>Data de chegada: " + 
+                        req.body.arrivalDate +
+                        "</li><li>Nome do evento: " + 
+                        req.body.eventName +
+                        "</li><li>Número de pessoas: " + 
+                        req.body.numberOfPeople +
                         "</li></ul><h3>Mensagem</h3><p>" +
-                        req.body.message + 
+                        req.body.a + 
                         "</p>"
 
         let transporter = nodemailer.createTransport({
